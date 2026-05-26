@@ -3,9 +3,9 @@ import { SubHeading, MenuItem } from '../../components';
 import { images, data } from '../../constants';
 // import './AboutUs.css';
 
-const Lesdesserts = () => (
-<div className="app__specialMenu flex__center section__padding" id="lesdesserts">
+const Desserts = () => (
+<div className="app__specialMenu flex__center section__padding" id="desserts">
   </div>
 );
 
-export default Lesdesserts;
+export default Desserts;

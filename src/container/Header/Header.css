@@ -1,5 +1,5 @@
 .app__header {
-    background-color: var(--color-black);
+    background-color: black;
 }
 
 .app__header-h1 {
@@ -12,7 +12,7 @@
     
 }
 .app__wrapper_img {
-    background-color: var(--color-black);
+    background-color: transparent;
 }
 
 /* .app__header-img {

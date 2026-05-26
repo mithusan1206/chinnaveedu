@@ -24,11 +24,11 @@ const Navbar = () => {
     <div className="app__navbar-logo"> <img src={images.gericht} alt="app logo" /> </div>
     <ul className="app__navbar-links">
       <li className="p__opensans"><Link to="/#home">Home</Link></li>
-      <li className="p__opensans"><Link to="/#lesentrees">les entrées</Link></li>
-      <li className="p__opensans"><Link to="/#lesplats">les plats</Link></li>
+      <li className="p__opensans"><Link to="/#entrees">les entrées</Link></li>
+      <li className="p__opensans"><Link to="/#plats">les plats</Link></li>
       <li className="p__opensans"><Link to="/#menu">Special Menu</Link></li>
-      <li className="p__opensans"><Link to="/#Aboire">A boire</Link></li>
-      <li className="p__opensans"><Link to="/#lesdesserts">les desserts</Link></li>
+      <li className="p__opensans"><Link to="/#boissons">Boissons</Link></li>
+      <li className="p__opensans"><Link to="/#desserts">les desserts</Link></li>
       <li className="p__opensans"><Link to="/#contact">Contact</Link></li>
       ////////{/* <li className="p__opensans"><a href="#ID must be same to support div section to direct"> abcd text </a></li> */}
     </ul>
@@ -44,11 +44,11 @@ const Navbar = () => {
             <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
             <ul className="app__navbarsmallscreen_links">
                 <li className="p__opensans"><Link to="/#home">Home</Link></li>
-                  <li className="p__opensans"><Link to="/#lesentrees">les entrées</Link></li>
-                  <li className="p__opensans"><Link to="/#lesplats">les plats</Link></li>
+                  <li className="p__opensans"><Link to="/#entrees">les entrées</Link></li>
+                  <li className="p__opensans"><Link to="/#plats">les plats</Link></li>
                   <li className="p__opensans"><Link to="/#menu">Special Menu🔥</Link></li>
-                  <li className="p__opensans"><Link to="/#Aboire">A boire🍸</Link></li>
-                  <li className="p__opensans"><Link to="/#lesdesserts">les desserts</Link></li>
+                  <li className="p__opensans"><Link to="/#boissons">Boissons🍹</Link></li>
+                  <li className="p__opensans"><Link to="/#desserts">les desserts</Link></li>
                   <li className="p__opensans"><Link to="/#contact">Contact</Link></li>
                   <li className="p__opensans"><Link to="/reservation">Reservation</Link></li>
             </ul>

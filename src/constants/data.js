@@ -686,7 +686,7 @@ const COCKTAILS = [
     tags: 'Pomme, orange, carrot, cucumber, ananas, ginger',
   },
   {
-    title: 'JUS DE FRUIT FRAIS PRESSÉ (Mul� fruit deux choix)',
+    title: 'JUS DE FRUIT FRAIS PRESSÉ (Multi fruit deux choix)',
     price: '6.90 €',
     tags: 'Pomme, orange, carrot, cucumber, ananas, ginger',
   },

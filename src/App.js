@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu, Lesentrees, Lesplats, Aboire, Lesdesserts, Reservation } from './container';
+import { AboutUs, Chef, Cocktails, Footer, Gallery, Header, Alcohol, SpecialMenu, Entrees, Plats, Desserts, Bieres, Boissons } from './container';
+import Reservation from './container/Reservation/Reservation';
 import { Navbar } from './components';
 import './App.css';
-import { GiKingJuMask } from 'react-icons/gi';
 
 const Home = () => {
   const location = useLocation();
@@ -22,17 +22,17 @@ const Home = () => {
     <div>
       <Navbar />
       <Header />
-      <Lesentrees/>
-      <Lesplats/>
+      <Entrees />
+      <Plats />
       <Chef />
-      <SpecialMenu/>
-      <Aboire/>
-      <Lesdesserts/>
+      <SpecialMenu />
+      <Bieres />
+      <Boissons />
+      <Desserts />
       <AboutUs />
-      <Intro />
-      <Laurels />
+      <Cocktails />
+      <Alcohol />
       <Gallery />
-      <FindUs />
       <Footer />
     </div>
   );

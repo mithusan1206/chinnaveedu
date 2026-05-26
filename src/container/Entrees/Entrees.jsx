@@ -3,8 +3,8 @@ import { SubHeading, MenuItem } from '../../components';
 import { images, data } from '../../constants';
 // import './SpecialMenu.css';
 
-const Lesentrees = () => (
-<div className="app__specialMenu flex__center section__padding" id="lesentrees">
+const Entrees = () => (
+<div className="app__specialMenu flex__center section__padding" id="entrees">
     {/* <div className="app__specialMenu-title">
       <SubHeading title="Menu that fits you palatte" />
       <h1 className="headtext__cormorant">Today's Special</h1>
@@ -86,7 +86,7 @@ const Lesentrees = () => (
   </div>
 );
 
-export default Lesentrees;
+export default Entrees;
 
 
 // <div className="WHAT EVER THE FUCKING NAME" id="Lesentrees">

@@ -1,31 +1,31 @@
 import AboutUs from './AboutUs/AboutUs';
 import Chef from './Chef/Chef';
-import FindUs from './Findus/FindUs';
+import Cocktails from './Cocktails/Cocktails';
 import Footer from './Footer/Footer';
 import Gallery from './Gallery/Gallery';
 import Header from './Header/Header';
-import Intro from './Intro/Intro';
-import Laurels from './Laurels/Laurels';
+import Alcohol from './Alcohol/Alcohol';
+import Bieres from './Bieres/Bieres';
+import Boissons from './Boissons/Boissons';
 import SpecialMenu from './Menu/SpecialMenu';
-import Lesentrees from './Les_entrees/Les_entrees';
-import Lesplats from './lesplats/Lesplats';
-import Aboire from './A_boire/Aboire';
-import Lesdesserts from './Lesdesserts/Lesdesserts';
+import Entrees from './Entrees/Entrees';
+import Plats from './Plats/Plats';
+import Desserts from './Desserts/Desserts';
 import Reservation from './Reservation/Reservation';
 
 export {
   AboutUs,
   Chef,
-  FindUs,
+  Cocktails,
   Footer,
   Gallery,
   Header,
-  Intro,
-  Laurels,
+  Alcohol,
+  Bieres,
+  Boissons,
   SpecialMenu,
-  Lesentrees,
-  Lesplats,
-  Aboire,
-  Lesdesserts,
+  Entrees,
+  Plats,
+  Desserts,
   Reservation,
 };

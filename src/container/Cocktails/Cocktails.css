@@ -1,0 +1,151 @@
+.findus {
+  background-color: #020202;
+  padding: 4rem clamp(1.5rem, 3vw, 6rem);
+  color: #fff;
+}
+
+.findus .p__cormorant {
+  color: rgb(220, 202, 135);
+  font-family: var(--font-base);
+}
+
+.findus__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 2rem;
+  align-items: start;
+}
+
+.findus__label {
+  display: inline-block;
+  background-color: #ffd700;
+  color: #090909;
+  padding: 0.75rem 1.6rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.75rem;
+}
+
+.findus__section {
+  margin-bottom: 2rem;
+}
+
+.findus__section-heading {
+  font-size: 1.05rem;
+  margin: 0 0 1rem;
+  color: #fff;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.findus__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.findus__item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.findus__item:last-child {
+  border-bottom: none;
+}
+
+.findus__item-title {
+  color: #ffd700;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.findus__item-desc {
+  margin: 0.35rem 0 0;
+  color: #f2e89a;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.findus__item-price {
+  color: #fff;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.findus__aside {
+  display: flex;
+  justify-content: center;
+}
+
+.findus__aside-card {
+  width: 100%;
+  background: #111;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.4);
+}
+
+.findus__image {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  height: 100%;
+}
+
+.findus__callout {
+  padding: 1.5rem 1.5rem 2rem;
+  background: #0d0d0d;
+}
+
+.findus__callout-title {
+  font-size: 1.35rem;
+  color: #ffd700;
+  font-weight: 800;
+  margin-bottom: 0.4rem;
+  letter-spacing: 0.06em;
+}
+
+.findus__callout-price {
+  font-size: 1.75rem;
+  color: #fff;
+  font-weight: 800;
+  margin-bottom: 0.8rem;
+}
+
+.findus__callout-desc {
+  margin: 0;
+  color: #f7e98b;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 980px) {
+  .findus__wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .findus__aside {
+    order: -1;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .findus__section-heading {
+    font-size: 0.95rem;
+  }
+
+  .findus__item {
+    grid-template-columns: 1fr;
+  }
+
+  .findus__item-price {
+    margin-top: 0.55rem;
+  }
+}

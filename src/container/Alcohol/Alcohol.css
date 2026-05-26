@@ -1,5 +1,5 @@
 .intro{
-  background: #0b0b0b;
+  background: black;
   color: #fff;
 }
 
@@ -47,9 +47,24 @@
   padding: 0.5rem 0;
   color: #ddd;
   border-bottom: 1px solid rgba(255,255,255,0.02);
+  position: relative;
 }
 
 .intro__list li span{display:inline-block}
+
+.intro__list-item--kalu .intro__list-kalu-bg {
+  position: absolute;
+  right: 220px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 96px;
+  height: 96px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  pointer-events: none;
+}
 
 .price{
   color: #f2c94c;
@@ -72,3 +87,9 @@
   .intro__col-right{max-width:none}
   .intro__heading{font-size:20px}
 }
+
+.intro .p__cormorant {
+  color: rgb(220, 202, 135);
+  font-family: var(--font-base);
+}
+
